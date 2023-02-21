@@ -62,6 +62,18 @@ puts (num1.to_i + num2.to_i) #.to_i converts string & float to int 5+2 = 7
 puts (num1.to_f + num2.to_f) #.to_i converts string & int to float 5+2.5 = 7.5
 #conversions can be made on input (get)
 
+#MADLIBS GAME
+puts "enter a color: "
+color = gets.chomp()
+puts "enter a plural_noun: "
+plural_noun = gets.chomp()
+puts "enter a celebrity: "
+celebrity = gets.chomp()
+
+puts ("Roses are " + color)
+puts (plural_noun + " are blue")
+puts ("I love " + celebrity)
+
 # float
 gpa = 5.3
 # boolean - true/false values
