@@ -52,9 +52,15 @@ puts "enter your name: " #prompt user
 name = gets.chomp() #stops program and stores inside variable, chomp gets rid of new line
 puts ("hello " + name)
 
-# calculator example:
-
-
+#simple calculator example:
+puts "enter a number: "
+num1 = gets.chomp()
+puts "enter another number: "
+num2 = gets.chomp()
+puts (num1 + num2) #this concatenates strings 5+2 = 52
+puts (num1.to_i + num2.to_i) #.to_i converts string & float to int 5+2 = 7
+puts (num1.to_f + num2.to_f) #.to_i converts string & int to float 5+2.5 = 7.5
+#conversions can be made on input (get)
 
 # float
 gpa = 5.3
