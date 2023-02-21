@@ -19,7 +19,7 @@ puts name.upcase() #all uppercase letters
 puts phrase.downcase() #all lowercase letters
 puts name.strip() #get rid of white space
 puts name.length() #length of string
-puts pharse.include? "said" #if word exists in string
+puts phrase.include? "said" #if word exists in string
 puts phrase[1] #prints character of index
 puts phrase[0, 3] #prints range of characters
 puts phrase.index("h") #prints index of character
@@ -34,7 +34,7 @@ puts 5/9
 
 #advanced math
 puts 5**9 #exponents
-puts5 %9 #modulus - remainder in division
+puts 5%9 #modulus - remainder in division
 
 #methods
 puts ("my fav number is " + num.to_s) #number to string .to_s
@@ -48,6 +48,12 @@ puts Math.log(1)
 puts Math.sqrt(25)
 
 #USER INPUT
+puts "enter your name: " #prompt user
+name = gets.chomp() #stops program and stores inside variable, chomp gets rid of new line
+puts ("hello " + name)
+
+# calculator example:
+
 
 
 # float
