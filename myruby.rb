@@ -81,3 +81,39 @@ is_male = true
 is_short = false
 # nil - has no value
 flaws = nil
+
+#ARRAYS
+friends_array = Array["anthony", "cj", "aidan"] #container that holds multiple info
+puts friends_array #prints whole array
+puts friends_array[0] #prints value at index
+puts friends_array[-1] #pritns from index starting backwards
+puts friends_array[0, 2] #prints specific values at index
+friends_array[0] = "lydia" #changes value at index
+friends_array.length()#checks length of array
+friends_array.include? "anthony" #checks to see if value is present
+friends_array.reverse() #reverses order
+friends_array.sort() #sorts alphabetically (will error if multiple data types)
+
+new_array = Array.new #no values in array (lets you add values later)
+
+#HASHES
+#uses key,value pair (dictionary)
+states = {
+    "pennsylvania" => "PA",
+    "new york" => "NY",
+    "oregon" => "OR"
+}
+#keys have to be unique (no repitition)
+
+puts states #prints exactly whats coded
+puts states["new york"] #prints corresponding value (NY)
+
+#METHODS
+def sayhi(method_name) #parameter gives input
+    puts ("hello " + name)
+end
+
+sayhi("mike") #calls method so that it executes with specific name
+
+
+
